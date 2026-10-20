@@ -1,0 +1,27 @@
+name: smart_signature
+description: >-
+  A Flutter signature pad that enhances what you draw: removes jitter, pen
+  hooks and stray marks, adds ink-like stroke width and levels the baseline.
+  On-device, with PNG, SVG and JSON export.
+version: 0.1.0
+repository: https://github.com/Umar888/smart_signature
+issue_tracker: https://github.com/Umar888/smart_signature/issues
+topics:
+  - signature
+  - signature-pad
+  - drawing
+  - handwriting
+  - ink
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
